@@ -1,0 +1,30 @@
+name: Actualizar reclamos JSON
+
+on:
+  repository_dispatch:
+    types: [actualizar-reclamos]
+
+permissions:
+  contents: write
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Actualizar reclamos.json
+        run: |
+          cat > reclamos.json << 'EOF'
+          ${{ toJson(github.event.client_payload.reclamos) }}
+          EOF
+
+      - name: Commit cambios
+        run: |
+          git config user.name "Farmacias LUA Bot"
+          git config user.email "contacto@farmaciaslua.cl"
+          git add reclamos.json
+          git commit -m "Actualizar libro de reclamos" || echo "Sin cambios"
+          git push
