@@ -1,11 +1,29 @@
 [
   {
-    "id": "LUA-18072026-3",
-    "fecha": "18-07-2026",
     "canal": "Ecommerce",
-    "tipo": "Consulta",
-    "descripcion": "Solicitud ingresada por cliente, en proceso de revisión.",
-    "estado": "En curso",
-    "fechaCierre": ""
+    "descripcion": null,
+    "estado": "Cerrado",
+    "fecha": null,
+    "fechaCierre": null,
+    "id": "LUA-18072026-3",
+    "tipo": "Consulta"
+  },
+  {
+    "canal": "Ecommerce",
+    "descripcion": null,
+    "estado": "Cerrado",
+    "fecha": null,
+    "fechaCierre": null,
+    "id": "LUA-18072026-2",
+    "tipo": null
+  },
+  {
+    "canal": null,
+    "descripcion": null,
+    "estado": "Pendiente",
+    "fecha": null,
+    "fechaCierre": null,
+    "id": "LUA-18072026-1",
+    "tipo": null
   }
 ]
