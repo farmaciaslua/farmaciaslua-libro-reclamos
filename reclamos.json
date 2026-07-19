@@ -1,5 +1,14 @@
 [
   {
+    "canal": "Venta física",
+    "descripcion": null,
+    "estado": "Pendiente",
+    "fecha": null,
+    "fechaCierre": null,
+    "id": "LUA-18072026-4",
+    "tipo": "Consulta"
+  },
+  {
     "canal": "Ecommerce",
     "descripcion": null,
     "estado": "Cerrado",
