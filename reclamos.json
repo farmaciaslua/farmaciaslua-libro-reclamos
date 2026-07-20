@@ -1,5 +1,14 @@
 [
   {
+    "canal": "Ecommerce",
+    "descripcion": null,
+    "estado": "Pendiente",
+    "fecha": "2026-07-20T04:34:35Z",
+    "fechaCierre": null,
+    "id": "LUA-20072026-7",
+    "tipo": "Consulta"
+  },
+  {
     "canal": "Venta física",
     "descripcion": null,
     "estado": "Cerrado",
