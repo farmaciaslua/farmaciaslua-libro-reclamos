@@ -1,6 +1,15 @@
 [
   {
     "canal": "Ecommerce",
+    "descripcion": "MENSAJE PRUEBA 1",
+    "estado": "Pendiente",
+    "fecha": "2026-07-20T04:41:46Z",
+    "fechaCierre": null,
+    "id": "LUA-20072026-8",
+    "tipo": "Sugerencia"
+  },
+  {
+    "canal": "Ecommerce",
     "descripcion": null,
     "estado": "Pendiente",
     "fecha": "2026-07-20T04:34:35Z",
